@@ -2193,6 +2193,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "indicatif"
+version = "0.17.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4295cbb7573c16d310e99e713cf9e75101eb190ab31fccd35f2d2691b4352b19"
+dependencies = [
+ "console 0.15.0",
+ "number_prefix",
+ "portable-atomic",
+ "unicode-width",
+]
+
+[[package]]
 name = "inout"
 version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3284,6 +3296,12 @@ dependencies = [
  "opaque-debug 0.3.0",
  "universal-hash",
 ]
+
+[[package]]
+name = "portable-atomic"
+version = "0.3.15"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "15eb2c6e362923af47e13c23ca5afb859e83d54452c55b0b9ac763b8f7c1ac16"
 
 [[package]]
 name = "ppv-lite86"
@@ -4683,7 +4701,7 @@ dependencies = [
  "clap 2.34.0",
  "console 0.15.0",
  "humantime",
- "indicatif",
+ "indicatif 0.16.2",
  "pretty-hex",
  "semver",
  "serde",
@@ -4716,7 +4734,7 @@ dependencies = [
  "futures 0.3.21",
  "futures-util",
  "indexmap",
- "indicatif",
+ "indicatif 0.16.2",
  "itertools",
  "jsonrpc-core",
  "lazy_static",
@@ -6318,7 +6336,7 @@ dependencies = [
  "assert_cmd",
  "clap 2.34.0",
  "console 0.14.1",
- "indicatif",
+ "indicatif 0.17.2",
  "serde",
  "serde_derive",
  "serde_json",
