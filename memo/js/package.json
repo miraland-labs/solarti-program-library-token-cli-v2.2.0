@@ -1,7 +1,7 @@
 {
     "name": "@solarti/spl-memo",
     "description": "Solarti SPL Memo Program JS API derived from Solana SPL Memo Program JS API",
-    "version": "0.2.2-rc.1",
+    "version": "0.2.2-rc.2",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/solana-labs/solana-program-library",
     "license": "Apache-2.0",
@@ -46,7 +46,7 @@
         "deploy:docs": "npm run docs && gh-pages --dist memo/js --dotfiles"
     },
     "peerDependencies": {
-        "@solana/web3.js": "^1.20.0"
+        "@solana/web3.js": "^0.1.5-rc.1"
     },
     "dependencies": {
         "buffer": "^6.0.3"
