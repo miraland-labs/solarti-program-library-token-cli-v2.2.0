@@ -58,7 +58,7 @@
         "buffer": "^6.0.3"
     },
     "devDependencies": {
-        "@solarti/spl-memo": "^0.2.2-rc.1",
+        "@solarti/spl-memo": "^0.2.2-rc.2",
         "@solarti/web3.js": "^0.1.5-rc.1",
         "@types/chai": "^4.3.3",
         "@types/chai-as-promised": "^7.1.4",
